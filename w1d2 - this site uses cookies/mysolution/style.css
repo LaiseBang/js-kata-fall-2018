@@ -1,0 +1,41 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#cookie {
+  background-color: lightcyan;
+  border: solid;
+  border-color: lightblue;
+  text-align: center;
+  position: absolute;
+  animation: cookie_kf 1s ease-out;
+  animation-fill-mode: forwards;
+  width: 300px;
+  height: 150px;
+  font-size: 2em;
+}
+
+button {
+  color: darkorange;
+}
+@keyframes cookie_kf {
+  0% {
+    top: -100px;
+    left: 50vw;
+  }
+  100% {
+    top: 0vw;
+    left: 50vw;
+  }
+}
+
+@keyframes moveup_kf {
+  0% {
+    top: 0vw;
+    left: 50vw;
+  }
+  100% {
+    top: 0vw;
+    left: 150%;
+  }
+}
