@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Show tweets with #watercolor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 data-all-tweets>All Tweets</h1>
+    <!-- dette er destinationen for de tweets, som bliver klonet fra nedenstående template-->
+    <section class="tweet_reciever" data-tweetreciever>
+    </section>
+
+    <template id="tweet_template" data-tweet-template>
+        <article>
+            <h2 class="tweet_title" data-tweet-title></h2>
+            <p class="tweet_text" data-tweet-text>nyhed/guide tekst</p>
+
+        </article>
+    </template>
+    <script src="javascript.js">
+    </script>
+
+
+</body>
+
+</html>
