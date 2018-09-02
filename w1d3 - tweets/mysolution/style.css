@@ -1,7 +1,6 @@
-.tweet_reciever {
-  background-color: blueviolet;
+p {
+  font-size: 1em;
 }
-
-#tweet_template {
-  background-color: yellow;
+h2 {
+  font-size: 0.7em;
 }
