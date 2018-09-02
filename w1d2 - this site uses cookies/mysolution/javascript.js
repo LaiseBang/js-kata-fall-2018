@@ -1,4 +1,5 @@
 document.querySelector(".luk").addEventListener("click", closeCookie);
+document.querySelector(".deny").addEventListener("click", closeCookie);
 
 function closeCookie() {
   console.log("test");

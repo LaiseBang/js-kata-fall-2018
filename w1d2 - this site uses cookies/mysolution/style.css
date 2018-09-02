@@ -1,6 +1,9 @@
 * {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+body {
+  box-sizing: border-box;
+}
 
 #cookie {
   background-color: lightcyan;
