@@ -22,7 +22,7 @@ function showTime() {
   setTimeout(showTime, 1000);
 
   //console.log(seconds);
-  // console.log(today);
+  //console.log(today);
 }
 showTime();
 clearClass();
