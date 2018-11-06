@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #reciever {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+        }
+
+        section,
+        .box {
+            border: 1px solid black;
+        }
+
+        .box {
+            height: 100px;
+            width: 200px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <button>Change colours</button>
+    <div id="reciever"></div>
+    <template id="colorTemplate">
+        <section>
+            <div class="box"></div>
+            <p class="color"></p>
+            <code></code>
+        </section>
+    </template>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
